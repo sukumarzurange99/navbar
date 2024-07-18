@@ -1,3 +1,4 @@
+
 import NavMenu from "./NavMenu";
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
         <div className="flex-grow flex items-center z-20">
           <NavMenu />
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <a href="#">
             <img
               className="block lg:hidden"
@@ -19,7 +20,7 @@ const Header = () => {
             />
           </a>
 
-          <div className="hidden lg:flex lg:space-x-10 lg:items-center">
+          <div className="hidden lg:flex lg:space-x-10 lg:items-center ">
             <div className="hover:text-almost-black cursor-pointer">Login</div>
             <div>
               <button className="border-2 hover:border-almost-black hover:text-almost-black rounded-xl px-4 py-2">
